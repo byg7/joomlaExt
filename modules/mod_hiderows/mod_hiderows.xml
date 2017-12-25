@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.5.0" client="site" method="upgrade">
+    <name>hiderows</name>
+    <author>byg</author>
+    <version>1.5.0</version>
+    <description>Client asc report for self</description>
+    <files>
+        <filename module="mod_hiderows">mod_hiderows.php</filename>
+    </files>
+</extension>

@@ -1,0 +1,349 @@
+#conteiner *,
+#conteiner {
+	margin:0;
+	padding:0;
+}
+#conteiner {
+	min-height:10em;
+}
+#conteiner .thead table {
+	width:auto;
+}
+#conteiner .thead table td {
+	padding: 2px;
+}
+#conteiner .thead {
+	height: 60vh;
+	max-height: 60vh;
+	width:100%;
+}
+.fullreport#conteiner .thead {
+	height:70vh;
+	max-height:70vh;
+	overflow: auto;
+}
+.thead table {
+	position: relative;
+}
+.thead table thead {
+	background-color: #fff;
+}
+.thead table th {
+	/*border: solid 1px #B0B0B0;*/
+	text-align: center;
+}
+.reportselect {
+	margin-bottom: 0;
+	position:relative;
+	margin-bottom:-1.75em;
+	width:5em;
+}
+#conteiner form {
+	display: inline-block;
+	width: auto;
+}
+#conteiner label > div{
+	display:inline-block;
+}
+#conteiner label > div.form{
+	width:10em;
+	min-width:10em;
+	max-width:10em;
+	padding-right:1em;
+	text-align:right;
+}
+#conteiner label > div.form:after{
+	content:' ';
+}
+#conteiner label {
+	/*position: relative;*/
+	white-space:nowrap;
+	display:inline-block;
+}
+.reportpositioner{
+	position: relative;
+}
+#conteiner label input {
+	margin-bottom:0.3em;
+}
+#conteiner .selector.multy,
+#conteiner .selector.calendar {
+	display: none;
+	position: absolute;
+/*	left:0;*/
+	right:0;
+	top:1.4em;
+	max-height:15em;
+	overflow: auto;
+	z-index:10;
+	width: 15em;
+}
+#conteiner .show.multy:focus + .selector.multy,
+#conteiner label:hover .selector.multy,
+#conteiner .param:focus + .selector.calendar,
+#conteiner label:hover .selector.calendar {
+	display: block;
+}
+#conteiner label .selector.calendar td {
+	text-align:center;
+}
+#conteiner label {
+	z-index:100;
+}
+#conteiner label .selector.multy,
+#conteiner label .selector.calendar,
+#conteiner label .selector.calendar table {
+	background-color:#fff;
+	margin:0;
+	padding:2px;
+	border: solid 1px #777;
+}
+#conteiner label .selector.calendar td.days {
+	background-color:#eef;
+}
+#conteiner label .selector.calendar td.today {
+	background-color:#ffe;
+}
+#conteiner label .selector.calendar td.valday {
+	background-color:#fee;
+}
+#conteiner .selector.multy label {
+	display:block;
+}
+#conteiner .param.page{
+	max-width: 4em;
+}
+#conteiner .param.calendar{
+	max-width: 8em;
+}
+.ui-datepicker .ui-datepicker-prev:after{
+	content:"<";
+	left: .5em;
+	position: relative;
+}
+.ui-datepicker .ui-datepicker-next:after{
+	content:">";
+	left: .5em;
+	position: relative;
+}
+.ui-datepicker a {
+    text-decoration: none;
+}
+.ui_tpicker_unit_hide {
+	display:none;
+}
+.date{
+	width:6em;
+}
+.time{
+	width:4em;
+}
+#conteiner .thead > table th {
+	/*border:none;*/
+	background-color:#efefff;
+}
+#conteiner .thead > table{
+	background-color:#ffffff;
+}
+#conteiner .thead > table tr,
+#conteiner .thead > table th,
+#conteiner .thead > table td {
+	margin:0;
+	padding:0;
+}
+#conteiner .thead > table th a,
+#conteiner .thead > table td a {
+	color:inherit;
+}
+#conteiner .thead > table th,
+#conteiner .thead > table td {
+	border-right:solid 1px #777777;
+	border-bottom:solid 1px #777777;
+	padding:0.1em;
+}
+#conteiner .buttonsDiv{
+	float:right;
+	width:9em;
+	text-align:center;
+}
+#conteiner .paramsDiv{
+	overflow: hidden;
+	border-bottom:solid #ddd 1px;
+	background-color:#efefff;
+	background-color:#dee7f2;
+	padding-bottom:.5em;
+	padding-top:.5em;
+}
+#conteiner input[type=submit].xls{
+	background: #44aa44;
+	border:#44aa44 solid 1px;
+	color: #FFFFAA;
+}
+#conteiner input[type=submit].xlsx{
+	background:#FFFFFF;
+	border:#44aa44 solid 1px;
+	color:#44aa44;
+}
+#conteiner input[type=submit].xml{
+	background:#cc4411;
+	border:#cc4411 solid 1px;
+	color:#FFFFFF;
+}
+#conteiner input[type=submit].pdf{
+	background:#FFFFFF;
+	border:#4444aa solid 1px;
+	color: #4444aa;
+}
+#conteiner input[type=submit]{
+	border: 0;
+	display: block;
+	height: 1.6em;
+	width: 3.2em;
+	margin-top:.5em;
+	font-size:85%;
+	font-weight:600;
+	border-radius:.5em;
+	box-shadow: .1em .1em .2em #777777;
+}
+#conteiner div.path{
+	display:inline-block;
+	margin-left:5em;
+}
+#conteiner div.path+div.path{
+	margin-left:.5em;
+}
+#conteiner div.field{
+	display:inline-block;
+	width:20em;
+	padding:.5em;
+}
+#conteiner div.field:hover{
+	background-color:#fefea0;
+}
+#conteiner div.folder{
+	display:inline-block;
+	width:20em;
+	padding:.5em;
+}
+#conteiner div.folder:hover{
+	background-color:#a0fefe;
+}
+#conteiner div.field a,
+#conteiner div.folder a{
+	width: 100%;
+	display: inline-block;
+}
+#conteiner div.folder a:before{
+	content:"\f07b\0020";
+	font-family:'FontAwesome';
+}
+#conteiner div.msg{
+	position:relative;
+	display:block;
+	width:30em;
+	left:50%;
+	margin-left:-15em;
+	margin-top:2em;
+	border:solid #ccccff 1px;
+	border:double #ccccff 1px;
+	border-radius:.9em;
+	overflow:hidden;
+}
+#conteiner div.msg div{
+	padding:.5em;
+	display:block;
+	width:100%;
+}
+#conteiner div.msg div.title{
+	background:#000060;
+	color:#ffffee;
+	font-size:70%;
+	text-align:center;
+}
+#conteiner div.msg div.main{
+	background:#feda90;
+	color:#401010;
+	font-size:120%;
+	text-align:center;
+}
+#conteiner div.msg div.body{
+	background:#fffaee;
+	color:#104010;
+	font-size:90%;
+}
+#conteiner hr{
+	margin:.5em;
+	background:#777777;
+}
+#conteiner .level.plus{
+	border: solid #000 1px;
+	width: .6em;
+	height:.6em;
+	float:left;
+}
+#conteiner .level.plus:before{
+	content:"+";
+	position: relative;
+	top: -.4em;
+	left: -.1em;
+}
+#conteiner .level.plus.showed:before{
+	content:"-";
+}
+input#fullscreen {
+	display: none;
+	position: absolute;
+}
+/*
+input#fullscreen+label:before{
+	content:"Развернуть";
+}
+input#fullscreen:checked+label:before{
+	content:"Свернуть";
+}
+*/
+input#fullscreen+label{
+	position:relative;
+}
+input#fullscreen+label > i{
+	position:absolute;
+	top:-2.2em;
+	right:5em;
+}
+input#fullscreen+label > i:before{
+	content:"\f065"
+}
+input#fullscreen:checked+label > i:before{
+	content:"\f066"
+}
+input#fullscreen:checked+label > i{
+	content:"\f066";
+	top:0;
+	right:1em;
+}
+input#fullscreen:checked+label,
+input#fullscreen:checked+label+div {
+	position:fixed;
+	left:0;
+	right:0;
+	background:#ffffff;
+	z-index:1000;
+}
+input#fullscreen:checked+label {
+	top:0;
+	height:1.75em;
+}
+input#fullscreen:checked+label+div {
+	top:1.75em;
+	bottom:0;
+	overflow:auto;
+}
+input#fullscreen:checked+label+div .fullreport#conteiner .thead {
+	height:80vh;
+	max-height:80vh;
+}
+a.undo{
+	position: absolute;
+	left:6em;
+	top:.2em;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.5.0" client="site" method="upgrade">
+	<name>Outside reports</name>
+	<author>byg</author>
+	<version>0.0.1</version>
+	<description>BYG outside report</description>
+	<files>
+		<filename module="mod_byg_repout">mod_byg_repout.php</filename>
+		<filename>mod_byg_repout.css</filename>
+		<filename>mod_byg_repout.xml</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>
